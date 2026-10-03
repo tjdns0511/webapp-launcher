@@ -1,0 +1,1 @@
+<!doctype html><meta name="viewport" content="width=device-width"><h1>Hello</h1><button id="b">Count: 0</button><script>let n=+(localStorage.getItem('n')||0),b=document.querySelector('#b');b.textContent='Count: '+n;b.onclick=()=>{localStorage.setItem('n',++n);b.textContent='Count: '+n}</script>
